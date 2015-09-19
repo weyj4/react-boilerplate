@@ -1,10 +1,10 @@
 var React = require('react');  
-var ToyComponent = require('./components/HBarChart.js');
+var DummyComponent = require('./components/DummyComponent.js');
 
 var App = React.createClass({  
   render() {
     return (
-      <ToyComponent /> 
+      <DummyComponent /> 
     );
   }
 });
